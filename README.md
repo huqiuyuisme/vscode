@@ -30,10 +30,17 @@ bash initcfg.sh
 
 
 cd /usr/local/shadowsocksr
+
 vim user-config.json
+
 cd /usr/local/shadowsocksr/shadowsocks
+
 bash ./logrun.sh
+
 bash ./tail.sh
+
 bash ./stop.sh
+
 bash ./logrun.sh
+
 wget --no-check-certificate https://github.com/Ellean/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
